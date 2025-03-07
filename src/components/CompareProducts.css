@@ -1,0 +1,58 @@
+/* styles/CompareProducts.css */
+.compare-products {
+  padding: 20px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: hidden; /* Prevent card content from overflowing */
+}
+
+.product-detail {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.product-detail label {
+  font-weight: 500;
+  color: #666;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-top: 15px;
+}
+
+.header-section {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  margin-left: 2%;
+}
+
+.add-more-btn {
+  background-color: #1890ff;
+}
+
+.remove-btn {
+  width: 100%;
+}
