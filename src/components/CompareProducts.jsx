@@ -96,7 +96,6 @@ const CompareProducts = () => {
             className="product-card"
             actions={[
               <Button
-                type="danger"
                 onClick={() => removeProduct(product.id)}
                 className="remove-btn"
               >
